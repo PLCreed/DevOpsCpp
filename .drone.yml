@@ -1,0 +1,24 @@
+kind: pipeline
+name: build_centos7
+
+platform: { os: linux, arch: amd64 }
+
+steps:
+#  - name: code-analysis
+#    image: aosapps/drone-sonar-plugin
+#    settings:
+#      sonar_host: http://172.0.0.100:9000
+#      sonar_token: squ_6507bd5c137588dd678b59f31e311c32cea741ec
+#      # sonar_host:
+#      #   from_secret: sonar_host
+#      # sonar_token:
+#      #   from_secret: sonar_token
+
+  - name: build
+    image: centos:7.9.2009
+    commands:
+      - yum install -y gcc gcc-c++ cmake make
+      - mkdir build
+      - cd build
+      - cmake ..
+      - make -j
