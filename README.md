@@ -2,7 +2,7 @@
 [![Ubuntu](https://github.com/PLCreed/DevOpsCpp/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/PLCreed/DevOpsCpp/actions/workflows/ubuntu.yml)
 [![MacOS](https://github.com/PLCreed/DevOpsCpp/actions/workflows/macos.yml/badge.svg)](https://github.com/PLCreed/DevOpsCpp/actions/workflows/macos.yml)
 [![CodeQL](https://github.com/PLCreed/DevOpsCpp/actions/workflows/codeql.yml/badge.svg)](https://github.com/PLCreed/DevOpsCpp/actions/workflows/codeql.yml)
-[![Release](https://github.com/PLCreed/DevOpsCpp/actions/workflows/release.yml/badge.svg)](https://github.com/PLCreed/DevOpsCpp/actions/workflows/release.yml)
+[![Release](https://github.com/PLCreed/DevOpsCpp/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/PLCreed/DevOpsCpp/actions/workflows/release.yml)
 
 1.  [Cache](https://github.com/marketplace/actions/cache)
 2.  [Download Artifact](https://github.com/marketplace/actions/download-artifact)
